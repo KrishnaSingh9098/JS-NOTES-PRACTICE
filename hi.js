@@ -265,30 +265,35 @@
 
   // const balnce = new Number(100)
   // console.log(balnce)
-
-
   // console.log(balnce.toString().length)
   // console.log(balnce.toFixed(2))
 
+  // toPrecision()  are used for giveing us a presice value 
+
   // const otherNumber = 898.565
-  // // console.log(otherNumber.toPrecision(3))
+  // console.log(otherNumber.toPrecision(3))
+
+  //  toLocaleString method for hivimg , in many numbers as like onnnes thousands 
+
+  // const sigNum = 54882294162
+  // console.log(sigNum.toLocaleString('en-In'))
+
+
+  ///+++++++++++++++++++++++++++++++++++++++++++++++++++++   MATHS   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++///
 
   // console.log(Math.round(5.9))
   // console.log(Math.abs(-4.6))
 
 
 
-  // const mmin = 10
-  // const max = 28
-  // console.log(Math.floor(Math.random() * (max - mmin + 1) )+ mmin)
+  const min = 10
+  const max = 28
+
+  // formula // 
+  // console.log((Math.random()*10) + 1)
+  console.log(Math.floor(Math.random() * (max - min + 1) )+ min)
   
-  // console.log(Math.random() * (max - mmin + 1) )
-
-
-
-
-
-
+  console.log(Math.random() * (max - min + 1) )
 
 
                                          //   DATE AND TIME   //
