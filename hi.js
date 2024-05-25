@@ -286,14 +286,14 @@
 
 
 
-  const min = 10
-  const max = 28
+  // const min = 10
+  // const max = 28
 
   // formula // 
   // console.log((Math.random()*10) + 1)
-  console.log(Math.floor(Math.random() * (max - min + 1) )+ min)
+  // console.log(Math.floor(Math.random() * (max - min + 1) )+ min)
   
-  console.log(Math.random() * (max - min + 1) )
+  // console.log(Math.random() * (max - min + 1) )
 
 
                                          //   DATE AND TIME   //
@@ -304,17 +304,17 @@
   // console.log(myDate.toLocaleString())
 
 
-  // let myCreatedDate = new Date(2023,0, 23, 5
-  // , 33)
+  // let myCreatedDate = new Date(2023,0, 23, 5, 33)
   // let myCreatedDate = new Date("2025-01-25")  //   yy/mm/dd
   // let myCreatedDate = new Date("01-12-2023")
   // console.log(myCreatedDate.toLocaleString())
 
-  //let myTimeStamp = Date.now()
- // console.log(myTimeStamp)
- // console.log(myCreatedDate.getTime())
- // console.log(Date.now()/1000)    //gives deciml values also 
- // console.log(Math.floor(Date.now()/1000)) // gives seconds value
+  
+//   let myTimeStamp = Date.now()
+//  console.log(myTimeStamp)
+//  console.log(myCreatedDate.getTime())
+//  console.log(Date.now()/1000)    //gives deciml values also 
+//  console.log(Math.floor(Date.now()/1000)) // gives seconds value
 
 
       // let newDate = new Date()    
@@ -324,15 +324,16 @@
       // console.log(newDate.getFullYear())
       
 
+      
 
 
-                                          ///   ARRAYS IN JAVASCRIPT   ///
+                                          ///   ARRAYS IN JAVASCRIPT : LECTURE NO:> 14  ///    
 
 
-  // const myArr = [0,1,2,3,4,5,6,7,8,9,true,"krish"]   
+  //  const myArr = [0,1,2,3,4,5,6,7,8,9,true,"krish"]   
   // const myHeroes = ["hero no.1" , "poppy-and-Swallows"]
   // const myarr3 = new Array(1,2,3,4)
-  // console.log(myArr[11])          
+  // console.log(myArr[11])         
   
   
 
@@ -377,7 +378,7 @@
 
                                    ///  Spread Operators    ///
 
-// Holds the previosc vale and give a new ary 
+// Holds the previosc value and give a new ary 
 
 
   
@@ -401,7 +402,25 @@
 
 
                                      ///   Objects ///
-  //  Objects Literals 
+//Singleton : jab literals ki tarah krte h toh singleton nhi bnyta hai 
+
+
+  //  Objects Literals : way of declaration of objects
+
+  // const jsUser = {
+  //   name : "Krishna",
+  //   age : 15,
+  //   locATION : "bhopal",
+  //   email : "Krishna@gmail",
+  //   isLoggedIn : false,
+  //   lastLoginDay : ["mondat","wednesDay"]
+  // }
+  
+  // console.log(jsUser.email)
+  // console.log(jsUser["email"])
+
+  //another example
+
 // const mySym = Symbol("key1")
 //   const jsUser= {
 //     name :"Krishna",
@@ -414,15 +433,15 @@
 //     lastLoginDate:["monday","tuesday"]
 //   }
 
-  // console.log(jsUser)
-  // console.log(jsUser["email"])
-  // console.log(jsUser["full name"])
-  // console.log(jsUser["age"])
-  // console.log(jsUser["location"])
-  // console.log(jsUser["isLoggedIn"])
-  // console.log(jsUser["lastLoginDate"])
-  // console.log(typeof jsUser.mySym)
-  // console.log(jsUser[mySym])
+//   console.log(jsUser)
+//   console.log(jsUser["email"])
+//   console.log(jsUser["full name"])
+//   console.log(jsUser["age"])
+//   console.log(jsUser["location"])
+//   console.log(jsUser["isLoggedIn"])
+//   console.log(jsUser["lastLoginDate"])
+//   console.log(typeof jsUser.mySym)
+//   console.log(jsUser[mySym])
 // jsUser.email = "Krishna Singh .com"
 // // Object.freeze(jsUser)
 // jsUser.email = "jdcdnckcjn.com"
@@ -442,13 +461,14 @@
 
 
 
-// //const tinderUser = new Object()   //  singleton obj
+//const tinderUser = new Object()   //  singleton obj
 // const tinderUser = {}   // non-Singleton obj 
 // tinderUser.Id = 786,
 // tinderUser.name = "Suyash"
 
 // tinderUser.isLoggedIn=false
-// // console.log(tinderUser)
+//  console.log(tinderUser)
+
 
 // const regularUser ={
 //   email:"ebwjhjk@.com",
@@ -461,7 +481,7 @@
   
 // }
              
-// console.log(regularUser.fullName?.userName)
+ // console.log(regularUser.fullName?.userName)
   
 
 
@@ -469,17 +489,18 @@
 
 
 
-//                            ///  OBJECT MERGING   ///
+
+//                          ///  OBJECT MERGING   ///
                       
 
-//   const obj1 = {1:"a", 2:"b"}
-//   const obj2 = {3:"2", 4:"d"}
+  // const obj1 = {1:"a", 2:"b"}
+  // const obj2 = {3:"2", 4:"d"}
 
 
-//   // const obj3={obj1,obj2}
-//   const obj4 = Object.assign()
-//   const obj3 = {...obj1,...obj2}
-//   console.log(obj3)
+  // // // // const obj3={obj1,obj2}
+  // // const obj4 = Object.assign()
+  // const obj3 = {...obj1,...obj2}
+  //   console.log(obj3)
 
 
 
@@ -495,7 +516,7 @@
 //  }
 
 // const {courseInstructir : Yash} = coarse
-// //console.log(courseInstructir)
+ //console.log(courseInstructir)
 // console.log(Yash)
 
 
@@ -558,7 +579,7 @@
 //   console.log("a")  
 // }
 
-// // myfunction()
+// myfunction()
 // const tyuap = myfunction()
 // console.log(tyuap)
 
@@ -590,7 +611,9 @@
 
 // console.log(userLoginMesg(""))
 
-// console.log(userLoginMesg())
+// console.log(userLoginMesg())  // undefined
+
+
 
 
 
@@ -635,14 +658,14 @@
 
 
 
-// let a = 300;
+// let a = 300;  // global scope 
 
 //   if(true){
-//    let a = 10 
+//    let a = 10  // block Scope 
 //     const b = 20
 //      console.log("Inner" , a)
 //   }
-//  //  console.log(a);
+//   console.log(a);
 //  //  console.log(b);
 //    console.log(a)
 
@@ -654,36 +677,36 @@
 //    }
 
 
-                                            ///   LEcture 22 Scope level and mini hpoisting PRojects   /// 
+                                            ///   LEcture 22 Scope level and mini hoisting PRojects   /// 
 
-  // function one(){
+  function one(){
+    const userNmae = "KRishna"
+
+
+    function two(){
+      const website = "youtube"
+      console.log(userNmae)
+    }
+   //console.log(website)
+
+    two()
+  }
+
+ // one()
+
+// Jo child functions hote hai vo olarents ke functions ko access kr pate hai ./ but parents child ke function ko access nhi kr skte hai.
+
+
+  // if(true){
   //   const userNmae = "KRishna"
-
-
-  //   function two(){
+  //    if(userNmae === "KRISHNA"){
   //     const website = "youtube"
-  //     console.log(userNmae)
-  //   }
-  //  // console.log(website)
+  //           console.log(userNmae + website)
+   //  }
+   //  console.log(website)
+ // }
 
-  //   two()
-  // }
-
-  // one()
-
-
-
-
-//   // if(true){
-//   //   const userNmae = "KRishna"
-//   //    if(userNmae === "KRISHNA"){
-//   //     const website = "youtube"
-//   //           console.log(userNmae + website)
-//      }
-//    //  console.log(website)
-//   }
-
-//  // console.log(userNmae)
+ // console.log(userNmae)
 
 
 
@@ -694,11 +717,11 @@
 // return num + 1
 //  }
 
-// //  addOne(5)
+//   addOne(5)
 
 // // cannot ACCSS DECLARATION BEFORE INITIALIZATION 
-// // console.log(addTwo(5))
-// const addTwo = function(num)
+// console.log(addTwo(5))
+//  //const addTwo = function(num)
 // {
 //   return num + 2
 // }
@@ -709,21 +732,21 @@
              /// ++++++++++++++++++++++++++++++++++++++++++++  THIS AND ARROW FUNCTIONS IN JAVASCRIPT   ++++++++++++++++++++++++++++++++++++++++ ///
 
 // const usr = {
-//   userName : "kridhna",
+//   userName : "krishna",
 //   age : 21,
 
 //   welcomeMessage: function(){
 //     console.log(`${this.userName},Welcome To Website`)
-//    // console.log(this)
+//     //console.log(this)
 //    }
 // }
 
  
-// // usr.welcomeMessage()
-// // usr.userName="AKANSHA"
-// // usr.welcomeMessage()
+//  usr.welcomeMessage()
+//  usr.userName="AKANSHA"
+//  usr.welcomeMessage()
 
-// console.log(this)
+ //console.log(this)
 
 
 
@@ -733,7 +756,7 @@
 
 // }
 
-// onen()
+//onen()
 
 
   //========================================================//   AROW FUNCTIONS   // ==============================================================//=
@@ -756,7 +779,7 @@
 // console.log(addTHree(1, 2, 3))
 
 
-// const addTHre = (num1,num2,num3) => (num1 + num2 + num3)
+// const addTHre = (num1,num2,num3) => (num1 + num2 + num3)    // implicit method no need of rerturn keyword on this
 // console.log(addTHre(num1,num2,num3))
 
 
@@ -775,11 +798,12 @@
 // })(console.log(3 + 5))
 
 
+// Global scope ke pollution se problem hoti h kai baar to us global scope ke jo variables hai uske polllution se hatane 
+//ke liye IIFE k usw hota hai {(jo Function immediately execute ho jaye )}
+
+
 
 //// +++++++++++++++++++++++++++++++++++++++++++++ JAVASCRIPT EXECUTION  CONTEST  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ ////
-
-
-
 
 
 
